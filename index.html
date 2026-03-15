@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Portfolio of Chanduni Nethmini Jayashantha - Full Stack Developer & Software Engineer">
+    <title>Chaduni Nethmini | Full Stack Developer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <nav class="navbar">
+        <div class="logo">CN.</div>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#publications">Publications</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hello, I'm</span>
+            <h1 class="name">Chaduni Nethmini</h1>
+            <h2 class="role">Full Stack Developer <span class="highlight">&amp; Software Engineer</span></h2>
+            <p class="summary">
+                I build robust, high-performance web applications with modern technologies like React, Next.js, NestJS,
+                and Go.
+                Focusing on creating premium user experiences and scalable backend architectures.
+            </p>
+            <div class="cta-buttons">
+                <a href="#contact" class="btn primary">Get in Touch</a>
+                <a href="#projects" class="btn secondary">View Work</a>
+            </div>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/chaduni-nethmini-541253225/" target="_blank"><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/ChanduniNethmini" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://medium.com/@nchanduni21" target="_blank"><i class="fab fa-medium-m"></i></a>
+                <a href="mailto:nchanduni21@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://drive.google.com/file/d/1cpc6TbrTQ3Q01nBAt1I1e6WJ2oLyQgEX/view?usp=sharing"
+                    target="_blank"><i class="fas fa-file-pdf"></i></a>
+            </div>
+        </div>
+        <div class="hero-visual">
+            <div class="code-block">
+                <div class="code-header">
+                    <span class="dot red"></span>
+                    <span class="dot yellow"></span>
+                    <span class="dot green"></span>
+                </div>
+                <pre>
+<code>
+<span class="token keyword">const</span> developer = {
+  name: <span class="token string">"Chaduni Nethmini"</span>,
+  role: <span class="token string">"Full Stack Engineer"</span>,
+  stack: [<span class="token string">"Next.js"</span>, <span class="token string">"Go"</span>, <span class="token string">"AWS"</span>],
+  location: <span class="token string">"Sri Lanka"</span>,
+  hireable: <span class="token boolean">true</span>
+};
+
+developer.buildAmazingApps();
+</code>
+                </pre>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I’m a Software Engineer who enjoys turning product ideas into clean, scalable systems. I’ve
+                        spent the last
+                        <strong>4+ years</strong> building applications that work in real business environments—where
+                        performance,
+                        reliability, and user experience all matter.
+                    </p>
+                    <br />
+                    <p>
+                        Currently, I work at <strong>BotCalm (PVT) Ltd</strong>, where I contribute to AI-powered chat
+                        applications and
+                        management platforms. I’ve worked across the full development lifecycle—from gathering
+                        requirements and planning,
+                        to implementing features, integrating APIs, and supporting deployments.
+                    </p>
+                    <br />
+                    <p>
+                        My core stack includes <strong>React, Next.js, Node.js, and NestJS</strong>, with databases like
+                        <strong>MongoDB, PostgreSQL, and Redis</strong>. I also work with modern tooling such as
+                        <strong>Docker, Kubernetes</strong>, and cloud platforms like <strong>Azure</strong>.
+                        I care about writing readable, maintainable code, collaborating well with teams, and shipping
+                        improvements that
+                        make a measurable impact.
+                    </p>
+                    <br />
+                    <p>
+                        I care about writing maintainable code, collaborating effectively, and shipping production-ready
+                        features that deliver real value.
+
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Sep 2024 - Present</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer</h3>
+                        <h4>BotCalm (PVT) Ltd</h4>
+                        <p>Developing software solutions with MERN, Next.js, and NestJS. Implementing OpenAI-based chat
+                            applications and managing complex systems for casinos and schools.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Feb 2023 - Aug 2024</div>
+                    <div class="timeline-content">
+                        <h3>Associate Software Engineer</h3>
+                        <h4>Rooverr PVT Ltd</h4>
+                        <p>Built vehicle rental web applications using NextJS and NestJS. Focused on REST API
+                            integration and UI/UX design.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2022 - Jan 2023</div>
+                    <div class="timeline-content">
+                        <h3>Software Engineer Trainee (Frontend)</h3>
+                        <h4>99x Technology (Tracified)</h4>
+                        <p>Created user interfaces with Angular, TypeScript, and Ionic. Developed SaaS reports for
+                            actionable insights.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Feb 2024- June 2024</div>
+                    <div class="timeline-content">
+                        <h3>Academic Instructor- Part Time</h3>
+                        <h4>LILIT Institute</h4>
+                        <p>Instructed students in software engineering fundamentals, including programming concepts,
+                            database management, and software development methodologies.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2 class="section-title">Technical Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3>Frontend</h3>
+                    <div class="skill-tags">
+                        <span>React.js</span>
+                        <span>Next.js</span>
+                        <span>AngularJS</span>
+                        <span>Tailwind CSS</span>
+                        <span>Flutter</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend</h3>
+                    <div class="skill-tags">
+                        <span>Node.js</span>
+                        <span>NestJS</span>
+                        <span>Go (Golang)</span>
+                        <span>REST APIs</span>
+                        <span>GraphQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Database</h3>
+                    <div class="skill-tags">
+                        <span>MongoDB</span>
+                        <span>PostgreSQL</span>
+                        <span>Redis</span>
+                        <span>SQL</span>
+                        <span>Non-SQL</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>DevOps & Cloud</h3>
+                    <div class="skill-tags">
+                        <span>AWS</span>
+                        <span>Docker</span>
+                        <span>Kubernetes</span>
+                        <span>Azure</span>
+                        <span>GitHub Actions</span>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Other</h3>
+                    <div class="skill-tags">
+                        <span>Micro-services</span>
+                        <span>Kafka</span>
+                        <span>Agile</span>
+                        <span>SonarQube</span>
+                        <span>GitHub</span>
+                        <span>AI</span>
+                        <span>TypeScript</span>
+                        <span>JavaScript</span>
+                        <span>CMS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/crypto_chat.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Crypto based AI chat</h3>
+                        <p>A secure, real-time AI-powered chat platform for crypto enthusiasts. Get targeted trading
+                            insights and manage portfolios with an intelligent conversational assistant.</p>
+                        <div class="tech-stack">
+                            <span>NextJs</span>
+                            <span>NestJs</span>
+                            <span>Supabase</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://nchanduni21.medium.com/building-an-ai-powered-crypto-knowledge-chat-using-openai-and-supabase-9ee03fa4289b"
+                                class="btn-sm"><i class="fas fa-external-link-alt"></i> Article</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/career_ai.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>CareerForge AI</h3>
+                        <p>Your intelligent career architect. Analyzes skills and selected course details to generate
+                            personalized
+                            career pathways, optimal resume structures, and tailored learning resources.</p>
+                        <div class="tech-stack">
+                            <span>ReactJS</span>
+                            <span>OpenAI</span>
+                            <span>Node.js</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://nchanduni21.medium.com/building-an-ai-powered-career-flow-generator-363b10ac9f9f"
+                                class="btn-sm"><i class="fas fa-external-link-alt"></i> Article</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 3 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/ecommerce.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>E-Commerce</h3>
+                        <p>A high-performance online ecosystem. Offers lightning-fast checkouts, dynamic inventory
+                            management, and a stunning UI designed for maximum conversion.</p>
+                        <div class="tech-stack">
+                            <span>MERN Stack</span>
+                            <span>Stripe</span>
+                            <span>Redux</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChanduniNethmini/E-shop_update" class="btn-sm"><i
+                                    class="fas fa-external-link-alt"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 4 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/handwriting_ai.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>Clever Zone Mobile App</h3>
+                        <p>Transform handwriting into digital text with pinpoint accuracy. Leverages machine
+                            learning
+                            models to seamlessly digitize notes and archives in real-time.</p>
+                        <div class="tech-stack">
+                            <span>Python</span>
+                            <span>React Native</span>
+                            <span>TensorFlow</span>
+                            <span>OpenCV</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://clever-zone-web.vercel.app/" class="btn-sm"><i
+                                    class="fas fa-external-link-alt"></i> Demo</a>
+                            <a href="https://github.com/ChanduniNethmini/CleverZone_Frontend" class="btn-sm"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 5 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/train_ticket.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>RailSync App and Admin Panel</h3>
+                        <p>A modern, frictionless train ticketing experience. Book rides, track live schedules, and
+                            manage digital passes on the go with an intuitive, slick interface.</p>
+                        <div class="tech-stack">
+                            <span>Flutter</span>
+                            <span>Firebase</span>
+                            <span>.Net</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChanduniNethmini/Ticket_Reservation_System-Mobile"
+                                class="btn-sm"><i class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 6 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/blog_app.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>InkWell Blog</h3>
+                        <p>A minimalist, content-focused blogging platform designed for storytellers. Features a
+                            sleek,
+                            distraction-free editor and lightning-fast static generation.</p>
+                        <div class="tech-stack">
+                            <span>TailwindCSS</span>
+                            <span>Mern Stack</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChanduniNethmini/My_blog_application_frontend" class="btn-sm"><i
+                                    class="fas fa-external-link-alt"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 7 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/social_media.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>VibeConnect Social</h3>
+                        <p>A next-generation social networking hub. Connect with communities, share dynamic
+                            multimedia (similar to Instagram)
+                            content, and experience highly responsive real-time interactions.</p>
+                        <div class="tech-stack">
+                            <span>MERN Stack</span>
+                            <span>JWT Authentication</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChanduniNethmini/My_Instagram" class="btn-sm"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Project 8 -->
+                <div class="project-card">
+                    <div class="project-image"
+                        style="background-image: url('images/edusphere.png'); background-size: cover; background-position: center;">
+                    </div>
+                    <div class="project-info">
+                        <h3>EduSphere OS - Mobile + Web</h3>
+                        <p>A comprehensive academic management portal. Streamlines student course registrations,
+                            grade
+                            tracking, and administrative tasks with predictive analytics.</p>
+                        <div class="tech-stack">
+                            <span>React Native</span>
+                            <span>Node.js</span>
+                            <span>MongoDB</span>
+                            <span>JWT Authentication</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/ChanduniNethmini/StudentManagementSystem" class="btn-sm"><i
+                                    class="fab fa-github"></i> Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date"> Jan 2020 - Dec 2023</div>
+                    <div class="timeline-content">
+                        <h3>B.Sc. (Hons) in Information Technology Specialized in Software Engineering</h3>
+                        <h4>Sri Lanka Institute of Information Technology (SLIIT)</h4>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2020 - Aug 2022</div>
+                    <div class="timeline-content">
+                        <h3>Higher Diploma in Information Technology</h3>
+                        <h4>Sri Lanka Institute of Information Technology (SLIIT)</h4>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2017</div>
+                    <div class="timeline-content">
+                        <h3>Diploma in Information Technology - DiTEC</h3>
+                        <h4>INFORTEC INTERNATIONAL ASIA CAMPUS (IIAC)</h4>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2019</div>
+                    <div class="timeline-content">
+                        <h3>Advanced Level - Biology Stream</h3>
+                        <h4>Visakha Vidyalaya- Colombo 05</h4>
+                        <p>Biology-C, Physics-C , Chemistry-C English-A, GIT-A</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">Jan 2016</div>
+                    <div class="timeline-content">
+                        <h3>Ordinary Level</h3>
+                        <h4>BCC- Kaduwela</h4>
+                        <p>History-A, Maths-A, Science-A, English-A, Sinhala-A, Commerce-A, LIT-A, Health Science-A,
+                            Buddhism-A</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" class="section">
+        <div class="container">
+            <h2 class="section-title">Certifications</h2>
+            <div class="cert-grid">
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <div class="cert-logo aws" aria-hidden="true">
+                            <i class="fab fa-aws"></i>
+                        </div>
+                        <span class="cert-date">2026</span>
+                    </div>
+                    <div class="cert-pill-row">
+                        <span class="cert-badge">Cloud</span>
+                    </div>
+                    <h3> Ultimate AWS Certified Cloud Practitioner CLF-C02 2026</h3>
+                    <p class="cert-issuer">Udemy</p>
+                    <p class="cert-desc">Validated knowledge of AWS cloud concepts, security, and pricing fundamentals.
+                    </p>
+                    <div class="cert-actions">
+                        <a href="https://www.udemy.com/certificate/UC-e318dc3c-5493-4a56-b8a3-de3b8c07dce8/"
+                            class="btn-sm"><i class="fas fa-file-alt"></i> View Certificate</a>
+                    </div>
+                </div>
+                <!-- <div class="cert-card">
+                    <div class="cert-top">
+                        <div class="cert-logo udemy" aria-hidden="true">
+                            <i class="fas fa-graduation-cap"></i>
+                        </div>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-pill-row">
+                        <span class="cert-badge">Learning</span>
+                    </div>
+                    <h3>Full Stack Web Development Bootcamp</h3>
+                    <p class="cert-issuer">Udemy</p>
+                    <p class="cert-desc">Hands-on training across frontend, backend, and deployment workflows.</p>
+                    <div class="cert-actions">
+                        <a href="#" class="btn-sm"><i class="fas fa-file-alt"></i> View Certificate</a>
+                    </div>
+                </div> -->
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <div class="cert-logo cpp" aria-hidden="true">
+                            <span>C++</span>
+                        </div>
+                        <span class="cert-date">2021</span>
+                    </div>
+                    <div class="cert-pill-row">
+                        <span class="cert-badge">Programming</span>
+                    </div>
+                    <h3>C++</h3>
+                    <p class="cert-issuer">Sololearn</p>
+                    <p class="cert-desc">Advanced C++ concepts, memory management, and performance optimization.</p>
+                    <div class="cert-actions">
+                        <a href="#" class="btn-sm"><i class="fas fa-file-alt"></i> View Certificate</a>
+                    </div>
+                </div>
+                <div class="cert-card">
+                    <div class="cert-top">
+                        <div class="cert-logo devops" aria-hidden="true">
+                            <i class="fab fa-docker"></i>
+                        </div>
+                        <span class="cert-date">2024</span>
+                    </div>
+                    <div class="cert-pill-row">
+                        <span class="cert-badge">DevOps</span>
+                    </div>
+                    <h3>Docker & Kubernetes Foundations</h3>
+                    <p class="cert-issuer">Udemy</p>
+                    <p class="cert-desc">Containerization, orchestration, and practical CI/CD workflows.</p>
+                    <div class="cert-actions">
+                        <a href="#" class="btn-sm"><i class="fas fa-file-alt"></i> View Certificate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="publications" class="section">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="pubs-grid">
+                <article class="pub-card">
+                    <div class="pub-meta">
+                        <span class="pub-type">Journal</span>
+                        <span class="pub-date">2023</span>
+                    </div>
+                    <h3>Clever Zone</h3>
+                    <p class="pub-venue"> International Research Journal of Innovations in Engineering and Technology
+                        (IRJIET),</p>
+                    <p class="pub-desc">A Mobile Application for A/L biology students to study their biology module
+                        using Machine Learning
+                        and NLP.</p>
+                    <div class="pub-actions">
+                        <a href="https://www.linkedin.com/feed/update/urn:li:activity:7129160984899817472"
+                            class="btn-sm"><i class="fas fa-file-pdf"></i> Certification</a>
+                    </div>
+                </article>
+                <article class="pub-card">
+                    <div class="pub-meta">
+                        <span class="pub-type">Journal</span>
+                        <span class="pub-date">2022</span>
+                    </div>
+                    <h3>E-shop</h3>
+                    <p class="pub-venue">International Journal of Engineering and Management Research</p>
+                    <p class="pub-desc">E Commerce and Management System- This is a web application for online shopping.
+                    </p>
+                    <div class="pub-actions">
+                        <a href="https://ijemr.vandanapublications.com/index.php/ijemr/article /view/925"
+                            class="btn-sm"><i class="fas fa-file-pdf"></i> Certification</a>
+                    </div>
+                </article>
+                <!-- <article class="pub-card">
+                    <div class="pub-meta">
+                        <span class="pub-type">Blog</span>
+                        <span class="pub-date">2023</span>
+                    </div>
+                    <h3>Optimizing Next.js Apps for Performance at Scale</h3>
+                    <p class="pub-venue">Medium (Dummy)</p>
+                    <p class="pub-desc">Practical strategies for caching, bundle reduction, and server-side rendering
+                        speedups.</p>
+                    <div class="pub-actions">
+                        <a href="#" class="btn-sm"><i class="fas fa-external-link-alt"></i> Read</a>
+                        <a href="#" class="btn-sm"><i class="fas fa-code"></i> Repo</a>
+                    </div>
+                </article> -->
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>nchanduni21@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>071 473 9237</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kaduwela, Colombo 10640</span>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Chanduni Nethmini. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
