@@ -67,6 +67,31 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    // Project Tab Switching
+    const tabBtns = document.querySelectorAll('.tab-btn');
+    const projectCards = document.querySelectorAll('.project-card[data-category]');
+
+    function showTab(tab) {
+        projectCards.forEach(card => {
+            if (card.dataset.category === tab) {
+                card.style.display = '';
+                // Ensure cards are visible even if the fade observer hasn't fired on them
+                card.style.opacity = '1';
+                card.style.transform = 'translateY(0)';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+        tabBtns.forEach(btn => btn.classList.toggle('active', btn.dataset.tab === tab));
+    }
+
+    // Default: show AI/ML
+    showTab('ai-ml');
+
+    tabBtns.forEach(btn => {
+        btn.addEventListener('click', () => showTab(btn.dataset.tab));
+    });
+
     // Smooth Scroll for Anchor Links
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
